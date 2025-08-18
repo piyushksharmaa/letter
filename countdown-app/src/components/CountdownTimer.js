@@ -96,7 +96,7 @@ const CountdownTimer = ({ targetDate }) => {
   useEffect(() => {
     const calculateTimeLeft = () => {
       const now = new Date();
-      const difference = targetDate - targetDate;
+      const difference = targetDate - now;
 
       if (difference > 0) {
         // Calculate time units
