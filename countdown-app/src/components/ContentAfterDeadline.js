@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import styled, { keyframes } from 'styled-components';
+import React, { useEffect } from "react";
+import styled, { keyframes } from "styled-components";
 
 // Animations
 const fadeIn = keyframes`
@@ -27,9 +27,9 @@ const Title = styled.h2`
   color: #ffcc00;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   position: relative;
-  
+
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -58,15 +58,19 @@ const ContentAfterDeadline = () => {
 
   return (
     <ContentContainer>
-      <Title>The Wait Is Over!</Title>
+      <Title>My Dearest Khushboo</Title>
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.
-      </Paragraph>
-      <Paragraph>
-        Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse in orci enim.
-      </Paragraph>
-      <Paragraph>
-        Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis.
+        My Dearest Khushbooo❤️ I do not know how this will find you…(Most
+        probably it would mean that…..💔) But, I write to tell you that I love
+        you, I love you so much my darling❤️ You are the love of my life my
+        dearest❤️ My soulmate❤️ My sole regret that i will be away from you…. I
+        want you to grow, to become the beautiful lady, i can now only imagine.
+        Please remember you are the Piyush’s Khushboo, the one i crave, the one
+        i desire, the only one i’ll never stop wanting❤️ You are and always will
+        be my Khushboo❤️ Kanhaji will always protect, please keep that nazar
+        wala band always with you❤️🧿 I’ll find comfort in knowing that Kanji
+        will always be there to protect you Dhyaan rakhnaa apnaa❤️My dearest and
+        prettiest lady You’re all that matters to me….
       </Paragraph>
     </ContentContainer>
   );
