@@ -5,7 +5,7 @@ import ContentAfterDeadline from "./components/ContentAfterDeadline";
 import PasswordProtection from "./components/PasswordProtection";
 
 // Target date: January 11, 2026 in IST (UTC+5:30)
-const TARGET_DATE = new Date("2025-07-07T00:00:00+05:30");
+const TARGET_DATE = new Date("2026-01-11T00:00:00+05:30");
 
 const AppContainer = styled.div`
   text-align: center;
