@@ -75,7 +75,7 @@ const ContentAfterDeadline = () => {
         You’re all that matters to me…. All I want is to see us together❤️… I’m
         fighting with every breath, and I will fight until the very end❤️ Jai
         shree Krishna❤️ Always and forever yours, Piyush❤️
-        <Image src="utilities/wp6124820.webp" alt="Hug" />
+        <img src="utilities/wp6124820.webp" alt="Hug" />
       </Paragraph>
     </ContentContainer>
   );
