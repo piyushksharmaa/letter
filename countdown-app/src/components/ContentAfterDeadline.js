@@ -58,7 +58,25 @@ const ContentAfterDeadline = () => {
 
   return (
     <ContentContainer>
-      <Paragraph>adaasdsda</Paragraph>
+      <Title>My Dearest Khushboo</Title>
+      <Paragraph>
+        My Dearest Khushbooo❤️ I do not know how this will find you…(Most
+        probably it would mean that…..💔) But, I write to tell you that I love
+        you, I love you so much my darling❤️ You are the love of my life my
+        dearest❤️ My soulmate❤️
+        <b />
+        My sole regret that i will be away from you…. I want you to grow, to
+        become the beautiful lady, i can now only imagine. Please remember you
+        are the Piyush’s Khushboo, the one i crave, the one i desire, the only
+        one i’ll never stop wanting❤️ You are and always will be my Khushboo❤️
+        Kanhaji will always protect, please keep that nazar wala band always
+        with you❤️🧿 I’ll find comfort in knowing that Kanji will always be
+        there to protect you Dhyaan rakhnaa apnaa❤️My dearest and prettiest lady
+        You’re all that matters to me…. All I want is to see us together❤️… I’m
+        fighting with every breath, and I will fight until the very end❤️ Jai
+        shree Krishna❤️ Always and forever yours, Piyush❤️
+        <Image src="utilities/wp6124820.webp" alt="Hug" />
+      </Paragraph>
     </ContentContainer>
   );
 };
