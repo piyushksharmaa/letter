@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import styled, { keyframes } from 'styled-components';
+import React, { useState, useEffect } from "react";
+import styled, { keyframes } from "styled-components";
 
 // Animations
 const fadeIn = keyframes`
@@ -39,9 +39,9 @@ const ClockIcon = styled.div`
   border-radius: 50%;
   margin-right: 10px;
   position: relative;
-  
+
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,7 +72,7 @@ const TimeValue = styled.div`
   font-weight: 700;
   color: white;
   line-height: 1;
-  
+
   @media (min-width: 768px) {
     font-size: 5rem;
   }
@@ -90,65 +90,65 @@ const CountdownTimer = ({ targetDate }) => {
     days: 0,
     hours: 0,
     minutes: 0,
-    seconds: 0
+    seconds: 0,
   });
-  
+
   useEffect(() => {
     const calculateTimeLeft = () => {
       const now = new Date();
-      const difference = targetDate - now;
-      
+      const difference = targetDate - targetDate;
+
       if (difference > 0) {
         // Calculate time units
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
         const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
         const minutes = Math.floor((difference / 1000 / 60) % 60);
         const seconds = Math.floor((difference / 1000) % 60);
-        
+
         setTimeLeft({ days, hours, minutes, seconds });
       } else {
         setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
       }
     };
-    
+
     // Calculate immediately
     calculateTimeLeft();
-    
+
     // Update every second
     const timer = setInterval(calculateTimeLeft, 1000);
-    
+
     // Clean up on unmount
     return () => clearInterval(timer);
   }, [targetDate]);
-  
+
   // Format time with leading zeros
   const formatTime = (value) => {
     return value < 10 ? `0${value}` : value;
   };
-  
+
   return (
     <TimerContainer>
       <Title>
         <ClockIcon />
         PLEASE WAIT
       </Title>
-      
+
       <CountdownDisplay>
         <TimeUnit>
           <TimeValue>{formatTime(timeLeft.days)}</TimeValue>
           <TimeLabel>DAYS</TimeLabel>
         </TimeUnit>
-        
+
         <TimeUnit>
           <TimeValue>{formatTime(timeLeft.hours)}</TimeValue>
           <TimeLabel>HRS</TimeLabel>
         </TimeUnit>
-        
+
         <TimeUnit>
           <TimeValue>{formatTime(timeLeft.minutes)}</TimeValue>
           <TimeLabel>MIN</TimeLabel>
         </TimeUnit>
-        
+
         <TimeUnit>
           <TimeValue>{formatTime(timeLeft.seconds)}</TimeValue>
           <TimeLabel>SEC</TimeLabel>
