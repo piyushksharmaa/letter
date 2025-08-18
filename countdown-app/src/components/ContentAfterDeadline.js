@@ -60,22 +60,39 @@ const ContentAfterDeadline = () => {
     <ContentContainer>
       <Title>My Dearest Khushboo</Title>
       <Paragraph>
-        My Dearest Khushbooo❤️ I do not know how this will find you…(Most
-        probably it would mean that…..💔) But, I write to tell you that I love
-        you, I love you so much my darling❤️ You are the love of my life my
-        dearest❤️ My soulmate❤️
-        <b />
-        My sole regret that i will be away from you…. I want you to grow, to
-        become the beautiful lady, i can now only imagine. Please remember you
-        are the Piyush’s Khushboo, the one i crave, the one i desire, the only
-        one i’ll never stop wanting❤️ You are and always will be my Khushboo❤️
-        Kanhaji will always protect, please keep that nazar wala band always
-        with you❤️🧿 I’ll find comfort in knowing that Kanji will always be
-        there to protect you Dhyaan rakhnaa apnaa❤️My dearest and prettiest lady
-        You’re all that matters to me…. All I want is to see us together❤️… I’m
-        fighting with every breath, and I will fight until the very end❤️ Jai
-        shree Krishna❤️ Always and forever yours, Piyush❤️
-        <img src="utilities/wp6124820.webp" alt="Hug" />
+        My Dearest Khushbooo❤️ I do not know how this will find you…
+        <br />
+        But, I write to tell you that I love you, I love you so much my
+        darling❤️
+        <br />
+        You are the love of my life my dearest❤️
+        <br />
+        My soulmate❤️
+        <br />
+        There are many regrets I have, but the biggest one is that I could not
+        be with you, to love you, to cherish you, to hold you in my arms and
+        tell you how much I love you❤️
+        <br />
+        I want you to grow, to become the beautiful lady, i can now only
+        imagine.
+        <br />
+        Please remember you are the Piyush Khushboo, the one i crave, the one i
+        desire, the only one i’ll never stop wanting❤️ You are and always will
+        be my Khushboo❤️ Kanhaji will always protect you, please keep that nazar
+        wala band always with you❤️🧿 I’ll find comfort in knowing that Kanhaji
+        will always be there to protect you Dhyaan rakhnaa apnaa❤️My dearest and
+        prettiest lady You’re all that matters to me…
+        <br />
+        All I want is to see us together❤️…
+        <br />
+        I’m fighting with every breath, and I will fight until the very end❤️
+        Jai shree Krishna❤️
+        <br />
+        I will never stop loving you, and I will never give up on us, my dearest
+        Khushboo❤️
+        <br />
+        Always and forever yours, Piyush❤️
+        <img src="/wp6124820.webp" alt="Hug" />
       </Paragraph>
     </ContentContainer>
   );
