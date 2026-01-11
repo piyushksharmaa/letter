@@ -130,7 +130,7 @@ const CountdownTimer = ({ targetDate }) => {
     <TimerContainer>
       <Title>
         <ClockIcon />
-        PLEASE WAIT
+        PLEASE WAIT❤️
       </Title>
 
       <CountdownDisplay>
