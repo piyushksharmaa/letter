@@ -87,6 +87,14 @@ const ContentAfterDeadline = () => {
         <br />
         Because of that, I couldn't truly be there for you. To love you the way you deserved. To cherish you, hold you in my arms, 
         and tell you again and again how much you mean to me❤️
+        So, Please wait for me. Let me become a man first not just in age, but in soul. A man who can truly take care of you, who is 
+        assertive yet gentle, honest in every word, strong in his values, masculine in his actions, and someone you can trust without 
+        fear or doubt.
+        I want to be that man for you.
+        The one you can lean on completely, the one who stands in front of the world for you, and behind you to support you always.
+        Please believe this, I want only you. I will come for you, surely I will. I will fight for you till my last breath.
+        Know this....I will come for you anyway, in this very lifetime, in the next one also, and the one after that also.
+        I will find you again and again, in every lifetime❤️
         <br />
         Now, from afar, all I want is to see you grow......
         to become the beautiful woman I can only imagine
