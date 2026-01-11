@@ -60,38 +60,46 @@ const ContentAfterDeadline = () => {
     <ContentContainer>
       <Title>My Dearest Khushboo</Title>
       <Paragraph>
-        My Dearest Khushbooo❤️ I do not know how this will find you…
+        My Dearest Khushbooo ❤️ I don't know when this letter will reach you, or at what moment of your day it will find you....
         <br />
-        But, I write to tell you that I love you, I love you so much my
-        darling❤️
+        I love you. I love you so deeply, my darling ❤️ You are the love of my life, my dearest. My soulmate❤️
         <br />
-        You are the love of my life my dearest❤️
+        I carry many regrets within me, but the greatest one of all is this..... that I couldn't love you the way you needed. 
+        Not because you lacked anything.......you are the most perfect woman anyone could ever want but because I did.
         <br />
-        My soulmate❤️
+        I wasn't the man I should have been. I was still a boy.....childish, lacking maturity and understanding not yet the man 
+        I was meant to become.
         <br />
-        There are many regrets I have, but the biggest one is that I could not
-        be with you, to love you, to cherish you, to hold you in my arms and
-        tell you how much I love you❤️
+        Because of that, I couldn't truly be there for you. To love you the way you deserved. To cherish you, hold you in my arms, 
+        and tell you again and again how much you mean to me❤️
         <br />
-        I want you to grow, to become the beautiful lady, i can now only
-        imagine.
+        Now, from afar, all I want is to see you grow......
+        to become the beautiful woman I can only imagine
+        strong, radiant, and full of life.
         <br />
-        Please remember you are the Piyush Khushboo, the one i crave, the one i
-        desire, the only one i’ll never stop wanting❤️ You are and always will
-        be my Khushboo❤️ Kanhaji will always protect you, please keep that nazar
-        wala band always with you❤️🧿 I’ll find comfort in knowing that Kanhaji
-        will always be there to protect you Dhyaan rakhnaa apnaa❤️My dearest and
-        prettiest lady You’re all that matters to me…
+        Please remember this always you are my Khushboo, the one I crave, the one I desire, the one my heart will never stop wanting❤️
+        You are, and you will always remain, my Khushboo ❤️ I pray that Kanha ji always protects you🤍 
+        Please keep that nazar wala band with you always 🧿
+        It brings me peace knowing that Kanha ji is watching over you, holding you safe when I cannot.
+        Dhyaan rakhna apna, my dearest❤️
+        My prettiest lady......you are all that truly matters to me.
         <br />
-        All I want is to see us together❤️…
+        All I want.....all I have ever wanted is to see us together ❤️
+        And one day, I truly hope to live that reality.
         <br />
-        I’m fighting with every breath, and I will fight until the very end❤️
-        Jai shree Krishna❤️
+        I'm fighting with every breath I have,
+        and I will keep fighting till the very end❤️
+        In this lifetime and beyond....... in every lifetime that follows, I will keep choosing you.
+        I will ask Kanha ji to make you mine
+        but before that, I will work on myself and become worthy of you.
         <br />
-        I will never stop loving you, and I will never give up on us, my dearest
-        Khushboo❤️
+        Jai Shree Krishna❤️
+        I will never stop loving you.
+        I will never give up on us, my dearest Khushboo ❤️
+
+        Always and forever yours,
+        Piyush❤️
         <br />
-        Always and forever yours, Piyush❤️
         <img src="/wp6124820.webp" alt="Hug" />
       </Paragraph>
     </ContentContainer>
