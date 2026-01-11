@@ -45,16 +45,21 @@ const LockIcon = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 2.5rem;
+  font-size: 1.8rem; /* Reduced from 2.5rem */
   color: #333;
   margin-bottom: 10px;
   font-weight: 400;
+
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const Subtitle = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem; /* Reduced from 1.2rem */
   color: #666;
   margin-bottom: 40px;
+  padding: 0 10px; /* Prevents text hitting screen edges */
 `;
 
 const PasswordForm = styled.form`
@@ -68,14 +73,16 @@ const PasswordForm = styled.form`
 const PasswordInput = styled.input`
   width: 100%;
   padding: 15px;
-  font-size: 1rem;
+  /* MUST be 16px to prevent auto-zoom on Android */
+  font-size: 16px; 
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px; /* Slightly rounder looks better on mobile */
   margin-bottom: 20px;
   outline: none;
+  box-sizing: border-box; /* Ensures padding doesn't push it off screen */
   
   &:focus {
-    border-color: #999;
+    border-color: #00ccff; /* Match your timer color */
   }
 `;
 
