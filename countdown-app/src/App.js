@@ -9,13 +9,19 @@ const TARGET_DATE = new Date("2026-01-12T00:00:00+05:30");
 
 const AppContainer = styled.div`
   text-align: center;
-  padding: 20px;
+  /* Use 15px for tighter mobile edges; use 'view-height' to fill the M30 screen */
+  padding: 15px; 
   color: white;
   display: flex;
+  flex-direction: column; /* Stack elements vertically */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  /* Support for the "Infinity-U" notch area on M30 */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
   width: 100%;
+  box-sizing: border-box;
 `;
 
 function App() {
