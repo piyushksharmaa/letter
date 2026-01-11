@@ -17,37 +17,52 @@ const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  /* Reduced padding for mobile, larger for desktop */
+  padding: 15px;
+  @media (min-width: 768px) {
+    padding: 30px;
+  }
   animation: ${fadeIn} 1s ease-out;
+  width: 100%;
+  box-sizing: border-box;
 `;
 
 const Title = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 1.8rem; /* Scaled down for mobile */
+  margin-bottom: 25px;
   color: #ffcc00;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   position: relative;
+  text-align: center;
 
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, #ffcc00, transparent);
-    background-size: 200% 100%;
-    animation: ${shimmer} 2s infinite;
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
   }
+  
+  /* ... keep your &::after code same ... */
 `;
 
 const Paragraph = styled.p`
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 15px;
+  font-size: 1rem; /* Slightly smaller for mobile density */
+  line-height: 1.7; /* Increased spacing for better readability */
+  margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.9);
   text-align: left;
+  width: 100%;
   max-width: 800px;
+  
+  @media (min-width: 768px) {
+    font-size: 1.1rem;
+  }
+`;
+
+const StyledImage = styled.img`
+  width: 100%;       /* Takes full width of the paragraph */
+  max-width: 100%;   /* Ensures it never overflows */
+  height: auto;      /* Keeps aspect ratio */
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 `;
 
 const ContentAfterDeadline = () => {
@@ -100,7 +115,7 @@ const ContentAfterDeadline = () => {
         Always and forever yours,
         Piyush❤️
         <br />
-        <img src="/wp6124820.webp" alt="Hug" />
+        <StyledImage src="/wp6124820.webp" alt="Hug" />
       </Paragraph>
     </ContentContainer>
   );
