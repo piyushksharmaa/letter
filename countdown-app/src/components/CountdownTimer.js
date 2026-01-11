@@ -58,7 +58,11 @@ const CountdownDisplay = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 20px;
+  gap: 10px; /* Reduced from 20px for narrow screens */
+
+  @media (min-width: 480px) {
+    gap: 20px;
+  }
 `;
 
 const TimeUnit = styled.div`
@@ -68,10 +72,15 @@ const TimeUnit = styled.div`
 `;
 
 const TimeValue = styled.div`
-  font-size: 4rem;
+  /* 12vw means the font size is 12% of the screen width */
+  font-size: 12vw; 
   font-weight: 700;
   color: white;
   line-height: 1;
+
+  @media (min-width: 480px) {
+    font-size: 4rem;
+  }
 
   @media (min-width: 768px) {
     font-size: 5rem;
