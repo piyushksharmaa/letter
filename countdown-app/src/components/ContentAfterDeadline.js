@@ -87,6 +87,7 @@ const ContentAfterDeadline = () => {
         <br />
         Because of that, I couldn't truly be there for you. To love you the way you deserved. To cherish you, hold you in my arms, 
         and tell you again and again how much you mean to me❤️
+        There will always be a quiet guilt within me that I wasn't man enough then, and because of that, I lost my precious princess.
         So, Please wait for me. Let me become a man first not just in age, but in soul. A man who can truly take care of you, who is 
         assertive yet gentle, honest in every word, strong in his values, masculine in his actions, and someone you can trust without 
         fear or doubt.
